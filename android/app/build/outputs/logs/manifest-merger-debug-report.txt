@@ -13,6 +13,7 @@ MERGED from [:react-native-gesture-handler] /Users/romanzminko/AwesomeProject/no
 MERGED from [:react-native-reanimated] /Users/romanzminko/AwesomeProject/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /Users/romanzminko/AwesomeProject/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/romanzminko/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/1a3fa834e77c816bd147dcc81f7a2a4e/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/81ff1fa454edf8ca554f30a203178e7e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/568ad9f4553d01d53a292ec6245d6cea/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
@@ -90,6 +91,8 @@ application
 ADDED from /Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/1a3fa834e77c816bd147dcc81f7a2a4e/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/1a3fa834e77c816bd147dcc81f7a2a4e/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/d28ac9a2ea57e720758a69b4dbacf807/soloader-0.9.0/AndroidManifest.xml:11:5-20
@@ -172,6 +175,8 @@ MERGED from [:react-native-safe-area-context] /Users/romanzminko/AwesomeProject/
 MERGED from [:react-native-safe-area-context] /Users/romanzminko/AwesomeProject/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/romanzminko/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /Users/romanzminko/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/1a3fa834e77c816bd147dcc81f7a2a4e/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/1a3fa834e77c816bd147dcc81f7a2a4e/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/81ff1fa454edf8ca554f30a203178e7e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -282,3 +287,19 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/75238863e6b45aca4b9c498f6fefb9f4/flipper-0.54.0/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/75238863e6b45aca4b9c498f6fefb9f4/flipper-0.54.0/AndroidManifest.xml:16:22-73
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67

@@ -584,6 +584,10 @@
         "source": "/Users/romanzminko/.gradle/caches/transforms-2/files-2.1/7dca42c052e713f328992d116d98f349/appcompat-1.1.0/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
+        "merged": "/Users/romanzminko/AwesomeProject/android/app/build/intermediates/res/merged/debug/xml_file_provider_paths.xml.flat",
+        "source": "/Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/packaged_res/debug/xml/file_provider_paths.xml"
+    },
+    {
         "merged": "/Users/romanzminko/AwesomeProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/Users/romanzminko/.gradle/caches/transforms-2/files-2.1/7dca42c052e713f328992d116d98f349/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
