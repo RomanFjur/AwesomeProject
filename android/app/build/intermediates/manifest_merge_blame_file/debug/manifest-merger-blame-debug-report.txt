@@ -15,72 +15,104 @@
 12-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:5-67
 12-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.54.0] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/75238863e6b45aca4b9c498f6fefb9f4/flipper-0.54.0/AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.54.0] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/75238863e6b45aca4b9c498f6fefb9f4/flipper-0.54.0/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-25:19
-16        android:name="com.awesomeproject.MainApplication"
-16-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /Users/romanzminko/.gradle/caches/transforms-2/files-2.1/57a7755ec7f8569f8e81b10deb53e9cc/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/Users/romanzminko/AwesomeProject/android/app/src/debug/AndroidManifest.xml:7:18-53
-25        <activity
-25-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:7-23:18
-26            android:name="com.awesomeproject.MainActivity"
-26-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:9-37
-27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-27-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:9-86
-28            android:label="@string/app_name"
-28-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:9-41
-29            android:launchMode="singleTask"
-29-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:9-40
-30            android:windowSoftInputMode="adjustResize" >
-30-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:9-51
-31            <intent-filter>
-31-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:9-22:25
-32                <action android:name="android.intent.action.MAIN" />
-32-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:13-65
-32-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:21-62
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:13-73
-34-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:23-70
-35            </intent-filter>
-36        </activity>
-37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-37-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:24:7-84
-37-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:24:17-81
-38
-39        <provider
-39-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
-40            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-40-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
-41            android:authorities="com.awesomeproject.fileprovider"
-41-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
-42            android:exported="false"
-42-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
-43            android:grantUriPermissions="true" >
-43-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
-44            <meta-data
-44-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
-45                android:name="android.support.FILE_PROVIDER_PATHS"
-45-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
-46                android:resource="@xml/file_provider_paths" />
-46-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
-47        </provider>
-48    </application>
-49
-50</manifest>
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/romanzminko/.gradle/caches/transforms-3/536a3e0d8a0029d3e06025c83f2b27fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/romanzminko/.gradle/caches/transforms-3/536a3e0d8a0029d3e06025c83f2b27fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->[:react-native-camera] /Users/romanzminko/AwesomeProject/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:5-65
+14-->[:react-native-camera] /Users/romanzminko/AwesomeProject/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:22-62
+15
+16    <uses-feature
+16-->[:react-native-camera] /Users/romanzminko/AwesomeProject/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.camera"
+17-->[:react-native-camera] /Users/romanzminko/AwesomeProject/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+18        android:required="false" />
+18-->[:react-native-camera] /Users/romanzminko/AwesomeProject/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+19    <uses-feature
+19-->[:react-native-camera] /Users/romanzminko/AwesomeProject/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[:react-native-camera] /Users/romanzminko/AwesomeProject/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+21        android:required="false" />
+21-->[:react-native-camera] /Users/romanzminko/AwesomeProject/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+22
+23    <application
+23-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:5-26:19
+24        android:name="com.awesomeproject.MainApplication"
+24-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-38
+25        android:allowBackup="false"
+25-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /Users/romanzminko/.gradle/caches/transforms-3/cbdc927fbd4d0aef0257c7c2cc1e28eb/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:7-41
+29        android:label="@string/app_name"
+29-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:11:7-52
+31        android:theme="@style/AppTheme"
+31-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/Users/romanzminko/AwesomeProject/android/app/src/debug/AndroidManifest.xml:7:18-53
+33        <activity
+33-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:7-24:18
+34            android:name="com.awesomeproject.MainActivity"
+34-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+35-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:9-86
+36            android:label="@string/app_name"
+36-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:9-41
+37            android:launchMode="singleTask"
+37-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:9-51
+39            <intent-filter>
+39-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:9-23:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:13-65
+40-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:22:13-73
+42-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:22:23-70
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+45-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:25:7-84
+45-->/Users/romanzminko/AwesomeProject/android/app/src/main/AndroidManifest.xml:25:17-81
+46
+47        <provider
+47-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+48            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+48-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+49            android:authorities="com.awesomeproject.fileprovider"
+49-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+50            android:exported="false"
+50-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+51            android:grantUriPermissions="true" >
+51-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+52            <meta-data
+52-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+53                android:name="android.support.FILE_PROVIDER_PATHS"
+53-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+54                android:resource="@xml/file_provider_paths" />
+54-->[:react-native-webview] /Users/romanzminko/AwesomeProject/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+55        </provider>
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:16.0.1] /Users/romanzminko/.gradle/caches/transforms-3/0ae91ff2fb3c40465a2ef69497eaa524/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:16.0.1] /Users/romanzminko/.gradle/caches/transforms-3/0ae91ff2fb3c40465a2ef69497eaa524/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:16.0.1] /Users/romanzminko/.gradle/caches/transforms-3/0ae91ff2fb3c40465a2ef69497eaa524/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:16.0.1] /Users/romanzminko/.gradle/caches/transforms-3/0ae91ff2fb3c40465a2ef69497eaa524/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:16.1.0] /Users/romanzminko/.gradle/caches/transforms-3/8427a70834629823faa77064744b5135/transformed/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:16.1.0] /Users/romanzminko/.gradle/caches/transforms-3/8427a70834629823faa77064744b5135/transformed/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:16.1.0] /Users/romanzminko/.gradle/caches/transforms-3/8427a70834629823faa77064744b5135/transformed/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+65    </application>
+66
+67</manifest>
